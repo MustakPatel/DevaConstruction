@@ -253,11 +253,16 @@ section {
 .header {
   z-index: 997;
   position: absolute;
-  padding: 30px 0;
+  padding: 5px 0;
   top: 0;
   left: 0;
   right: 0;
 }
+.custom-logo {
+  width: 105px; /* Adjust this value to your desired size */
+  height: auto; /* This ensures that the image maintains its aspect ratio */
+}
+
 
 .header .logo img {
   max-height: 40px;
